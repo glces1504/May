@@ -93,3 +93,14 @@ function createNewDiv(){
 }
 let baba = document.getElementById('menu')
 console.log(baba)
+let Gbutton = document.getElementById('gbutton');
+
+Gbutton.addEventListener('click',function(event){
+console.log('ButtonClicked!', event);
+});
+
+function tavsansay(){
+    for(let i=1; i<=7; i++){
+        alert("Tavşan Sayısı " + i);
+    }
+}

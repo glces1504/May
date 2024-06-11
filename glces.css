@@ -4,8 +4,7 @@
 }
 
     body{
-    width: 90%;
-    height: 2000px;
+  
     margin: 0 auto;
     background-color: #bebebe;
     padding: 20px;
@@ -160,3 +159,6 @@ figcaption {
     font-family:  "Orbitron", system-ui;
     margin-top: 10px;
 }
+.her-sey{
+    width: 100vw;
+    height: 1500px;}

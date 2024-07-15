@@ -8,7 +8,7 @@ function createNewDiv() {
     popupContent.className = 'popup-content';
 
     const contentText = document.createElement('p');
-    contentText.innerText = 'Dragos Sosyal Merkezi Projesi --- Kartal/İstanbul';
+    contentText.innerText = 'Dragos Social Center Project --- Kartal/İstanbul';
 
     popupContent.appendChild(contentText);
     popup.appendChild(popupContent);
@@ -31,7 +31,7 @@ function createNewDiv1() {
     popupContent.className = 'popup-content';
 
     const contentText = document.createElement('p');
-    contentText.innerText = 'Spor Merkezi Projesi --- Maltepe/İstanbul';
+    contentText.innerText = 'Sports Center Project --- Maltepe/İstanbul';
 
     popupContent.appendChild(contentText);
     popup.appendChild(popupContent);
@@ -55,7 +55,7 @@ function createNewDiv2() {
     popupContent.className = 'popup-content';
 
     const contentText = document.createElement('p');
-    contentText.innerText = 'Boğaziçi Üniversitesi Öğrenci Yurdu Projesi --- Beşiktaş/İstanbul';
+    contentText.innerText = 'Boğaziçi University Student Dormitory Project --- Beşiktaş/İstanbul';
 
     popupContent.appendChild(contentText);
     popup.appendChild(popupContent);
@@ -78,7 +78,7 @@ function createNewDiv3() {
     popupContent.className = 'popup-content';
 
     const contentText = document.createElement('p');
-    contentText.innerText = 'Milas Arkeoloji Müzesi Projesi --- Milas/Muğla';
+    contentText.innerText = 'Milas Archeological Museum Project --- Milas/Muğla';
 
     popupContent.appendChild(contentText);
     popup.appendChild(popupContent);
@@ -102,7 +102,7 @@ function createNewDiv4() {
     popupContent.className = 'popup-content';
 
     const contentText = document.createElement('p');
-    contentText.innerText = 'Tiber Nehir Müzesi Projesi --- Z. LVI Grottarossa/Roma';
+    contentText.innerText = 'Tiber Museum Project --- Z. LVI Grottarossa/Rome';
 
     popupContent.appendChild(contentText);
     popup.appendChild(popupContent);

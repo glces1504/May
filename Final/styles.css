@@ -5,7 +5,11 @@
 }
 body{
       margin: 0 auto;
-    background-color: #e6c8c8;
+      background-image: url(Pictures/arkaplan.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    background-color: #ecd6d6;
     padding: 20px;
 }
 table{
@@ -16,6 +20,27 @@ table{
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+.element {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+.element::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: -1;
 }
 
 .menu-disi{
@@ -110,9 +135,9 @@ justify-content: center;
 }
 
 .MP img {
-    width: 100%; /* Resmin genişliği */
-    height: auto; /* Yüksekliği otomatik olarak ayarlar, oranı korur */
-    transition: opacity 0.3s ease; /* Geçiş efekti */
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
 }
 
 .MP img:last-child {
@@ -125,6 +150,50 @@ justify-content: center;
 
 .MP:hover img:last-child {
     visibility: visible; 
-    z-index: 1.5; 
-    transform: scale(1.5)
+    z-index: 1; 
+    transform: scale(1.1)
+}
+
+.MP1{
+    position: absolute;
+    bottom: 10px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ecd6d671;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color: #dd7979;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #000000; 
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #dd7979;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Playwrite IT Trad', sans-serif;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

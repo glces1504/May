@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+      margin: 0 auto;
+    background-color: #e6c8c8;
+    padding: 20px;
+}
+table{
+    background-color: #333;
+    color: #ac2020;
+    padding: 10px;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu-disi{
+    width: 100%;
+    height: 100px;
+    display: flex;
+ justify-content:space-between;
+ }
+.menu-bolumu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    padding: 20px;
+    width: 40%;   
+}
+.linkler{
+    display: flex;
+    flex-direction: start;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 30%;
+    gap: 10px;
+   
+}
+.facebook{
+    max-height: 100%;
+    width: auto;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+  height: 150px;
+}
+.minik-logolar{
+height: 50px;
+}
+
+.projects{
+
+    font-size: 25px;
+    border-bottom: #333;
+}
+.about-me{
+    font-size: 25px;
+}
+.giris{
+    width: 100%;
+    height: 1000px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.giris-yazi{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 150%;
+    height: 300px;
+}
+
+.projeler{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.proje-foto{
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.MPfoto{
+    border: 3px;
+    border-style: double;
+    border-color: #dd7979;
+    box-sizing: border-box;
+}
+
+.MP {
+    position: relative;
+    width: 450px;
+    height: auto;
+    overflow: hidden;
+}
+
+.MP img {
+    width: 100%; /* Resmin genişliği */
+    height: auto; /* Yüksekliği otomatik olarak ayarlar, oranı korur */
+    transition: opacity 0.3s ease; /* Geçiş efekti */
+}
+
+.MP img:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden; 
+    z-index: -1; 
+}
+
+.MP:hover img:last-child {
+    visibility: visible; 
+    z-index: 1.5; 
+    transform: scale(1.5)
+}
